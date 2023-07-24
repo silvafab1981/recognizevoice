@@ -18,6 +18,6 @@ def set_tts():
         print(f"{i+1}. {voice.name}")
     choice = input("Opción: ")
     engine.setProperty('voice', voices[int(choice)-1].id)
-        
+    #Seleccionar tono de Voz        
     engine.setProperty('voice', voices[3].id)
     return engine
